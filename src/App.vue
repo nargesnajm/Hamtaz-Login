@@ -25,7 +25,7 @@ export default {
     }
   },
   watch: {
-    // Watch localStorage changes (indirectly) via a workaround
+    
     '$route'() {
       this.user = JSON.parse(localStorage.getItem('user'))
     }
